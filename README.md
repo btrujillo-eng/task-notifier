@@ -33,6 +33,7 @@ Entorno: WSL (Windows Subsystem for Linux)
 Estructura del Proyecto
 
 app/
+
 ├── api/                # configuraciones de la API
 
 ├── core/               # Reglas de negocio e Interfaces
