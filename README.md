@@ -34,10 +34,15 @@ Estructura del Proyecto
 
 app/
 ├── api/                # configuraciones de la API
+
 ├── core/               # Reglas de negocio e Interfaces
+
 ├── schemas/            # Modelos de Pydantic (Contratos)
+
 ├── services/           # Lógica de aplicación y Estrategias
+
 ├── repositories/       # (En desarrollo) Capa de persistencia
+
 └── main.py             # Punto de entrada de la API
 
 Instalación (Próximamente)
