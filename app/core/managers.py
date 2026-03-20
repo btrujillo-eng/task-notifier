@@ -8,6 +8,5 @@ def get_priority(priority: Enum | str) -> PriorityTask:
             return PriorityTask(priority.strip().lower())
         except ValueError:
             raise PriorityTaskError(priority)
-    
     return priority
     

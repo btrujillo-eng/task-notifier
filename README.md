@@ -64,8 +64,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 Notas del Autor:
-<<<<<<< HEAD
-=======
 
->>>>>>> d2d9d8359e62283a4ddab9ddee477b5b09447c85
 Como estudiante de Ingeniería de Software, mi objetivo con este repositorio es documentar mi evolución técnica, aplicando buenas prácticas de desarrollo desde las etapas iniciales del proyecto.

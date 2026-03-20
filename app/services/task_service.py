@@ -25,6 +25,7 @@ class TaskNotificationService:
             PriorityTask.MEDIUM: [email, sms],
             PriorityTask.LOW: [log]
         }
+        
     async def notify_for_priority(
         self, notification_priority: Enum | str, message: str, user_data: UserDataModel
         ):
