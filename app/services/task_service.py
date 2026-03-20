@@ -10,7 +10,7 @@ class TaskNotificationService:
     This service sends notifications according to the notification priority.
     
     Methods:
-        notify_for_priority(notification_priority: Enum | str, message: MessageModel, user_data: UserDataModel)
+        notify_for_priority(notification_priority: Enum | str, message: str, user_data: UserDataModel)
             
             This method sends notifications according to the notification priority.
             
