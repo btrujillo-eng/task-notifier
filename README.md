@@ -4,7 +4,7 @@ Este proyecto es una API de gestión de tareas y notificaciones desarrollada baj
 
 [!IMPORTANT]
 
-Estado del Proyecto: 🛠️ En Formación / Académico.
+Estado del Proyecto: En Formación / Académico.
 Este repositorio forma parte de mi proceso de aprendizaje en Arquitectura Limpia y principios SOLID aplicado a entornos backend con Python.
 
 Arquitectura y Principios
@@ -17,7 +17,7 @@ Schemas (Contratos): Definición de modelos de datos utilizando Pydantic para as
 
 Services (Aplicación): Lógica de orquestación. Aquí se implementa el envío de notificaciones basado en prioridades.
 
-🛠️ Patrones y SOLID Aplicado
+Patrones y SOLID Aplicado
 
 Strategy Pattern: Implementado en el sistema de notificaciones (Whatsapp, Email, SMS, Log), permitiendo cambiar el método de envío sin alterar la lógica de negocio.
 
