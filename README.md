@@ -63,5 +63,5 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-Notas del Autor
+Notas del Autor:
 Como estudiante de Ingeniería de Software, mi objetivo con este repositorio es documentar mi evolución técnica, aplicando buenas prácticas de desarrollo desde las etapas iniciales del proyecto.
