@@ -1,11 +1,14 @@
 Task Notification System (Clean Architecture)
+
 Este proyecto es una API de gestión de tareas y notificaciones desarrollada bajo principios de ingeniería de software moderna. Se enfoca en la escalabilidad, el desacoplamiento de componentes y la implementación de patrones de diseño.
 
 [!IMPORTANT]
+
 Estado del Proyecto: 🛠️ En Formación / Académico.
 Este repositorio forma parte de mi proceso de aprendizaje en Arquitectura Limpia y principios SOLID aplicado a entornos backend con Python.
 
 Arquitectura y Principios
+
 El proyecto está estructurado siguiendo los pilares de Clean Architecture, dividiendo las responsabilidades en capas bien definidas:
 
 Core (Dominio): Contiene las reglas de negocio, interfaces (Protocols) y excepciones personalizadas. Es totalmente independiente de librerías externas.
@@ -15,6 +18,7 @@ Schemas (Contratos): Definición de modelos de datos utilizando Pydantic para as
 Services (Aplicación): Lógica de orquestación. Aquí se implementa el envío de notificaciones basado en prioridades.
 
 🛠️ Patrones y SOLID Aplicado
+
 Strategy Pattern: Implementado en el sistema de notificaciones (Whatsapp, Email, SMS, Log), permitiendo cambiar el método de envío sin alterar la lógica de negocio.
 
 Dependency Inversion (D - SOLID): El servicio de notificaciones no depende de clases concretas, sino de abstracciones (NotifierProtocol).
@@ -51,8 +55,11 @@ Instalación (Próximamente)
 Bash
 
 git clone https://github.com/btrujillo-eng/task-notifier.git
+
 cd task-notifier
+
 python -m venv venv
+
 source venv/bin/activate
 pip install -r requirements.txt
 
