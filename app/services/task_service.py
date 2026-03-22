@@ -32,14 +32,11 @@ class TaskNotificationService:
         
         message_obj = MessageModel(message=message)
         priority = get_priority(notification_priority)
-        notifiers = self.strategies.get(notification_priority)
+        notifiers = self.strategies.get(priority)
         
         if not notifiers:
             raise PriorityTaskNotFoundError(notification_priority)
         
         import asyncio
         taks = [n.send(message_obj, user_data) for n in notifiers]
-        await asyncio.gather(**taks)
-        
-        
-        
+        await asyncio.gather(*taks)
